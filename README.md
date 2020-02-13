@@ -1,7 +1,8 @@
 Smart Tech Test
 
-Demo
 Clone this repository
+
+To run the demonstration, run:
 `$ cd parser
 $ ruby parser2.rb webserver.log`
 
