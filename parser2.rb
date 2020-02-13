@@ -19,8 +19,7 @@ class Parser
     @entries.each do |key, value|
       @most[key] << value.size
     end
-    @most_hash = Hash[@most.sort_by { |k, v| v }.reverse]
-    puts "Ordered by Most Views: #{@most_hash}"
+    puts "Ordered by Most Views: #{Hash[@most.sort_by { |k, v| v }.reverse]}"
     @most
   end
 
